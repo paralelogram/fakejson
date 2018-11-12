@@ -1,22 +1,20 @@
-Example of API repond:
-
-{ //параметри які я передав тобі}
-
+{
     "cnt" : 25,
     
-    "apartments": [{  //один в масиві
+    "apartments": [{ 
         "id" : 10,
         "main" : {
             "label" : "Home sweet Home",
             "desc" : "the Best in the World",
-            "prise" : 9999.99, //або ти або я будемо форматувати дабли до двох знаків після коми
-            "pictures" : [{}],//тут має бути масив всіх картинок, хз як це записати
-            "preview" :  //url прев'юшної картинки
+            "prise" : 9999.99, 
+            "pictures" : [{"picture" : ""}],
+            "preview" : ""
         },
-        "parameters" {
-                "sale_type" : 
-                "operation_type" : 
-         "building_type" :
+        
+        "parameters" : {
+                "sale_type" : "",
+                "operation_type" : "", 
+         "building_type" : "",
         "area" : 35.2,
         "rooms" : 2,
         "floors" : 5,
@@ -25,10 +23,10 @@ Example of API repond:
         },
         
         "seller" : {
-            "name" : "Вася пупкін"
+            "name" : "Вася пупкін",
             "phone_number1" : "+3809920000",
             "phone_number2" : "+3806320000",
-            "email" : "axample@"
+            "email" : "example@"
         }
     }]
-
+}
