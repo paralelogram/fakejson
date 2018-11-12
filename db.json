@@ -1,0 +1,34 @@
+Example of API repond:
+
+{ //параметри які я передав тобі}
+
+    "cnt" : 25,
+    
+    "apartments": [{  //один в масиві
+        "id" : 10,
+        "main" : {
+            "label" : "Home sweet Home",
+            "desc" : "the Best in the World",
+            "prise" : 9999.99, //або ти або я будемо форматувати дабли до двох знаків після коми
+            "pictures" : [{}],//тут має бути масив всіх картинок, хз як це записати
+            "preview" :  //url прев'юшної картинки
+        },
+        "parameters" {
+                "sale_type" : 
+                "operation_type" : 
+         "building_type" :
+        "area" : 35.2,
+        "rooms" : 2,
+        "floors" : 5,
+        "floor" : 2,
+        "address" : "Вулиця Павлоа Скоропадського"
+        },
+        
+        "seller" : {
+            "name" : "Вася пупкін"
+            "phone_number1" : "+3809920000",
+            "phone_number2" : "+3806320000",
+            "email" : "axample@"
+        }
+    }]
+
